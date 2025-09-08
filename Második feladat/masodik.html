@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <span>Név:</span>
+    <input type="text" name="nev" id="nev">
+    <span>Település:</span>
+    <input type="text" name="telepules" id="telepules">
+    <span>Irányítószám:</span>
+    <input type="number" name="irszam" id="irszam">
+    <span>Közterület jellege:</span>
+    <input type="text" name="kozterulet" id="kozterulet">
+    <span>Házszám:</span>
+    <input type="number" name="hazszam" id="hazszam">
+
+    <button onclick="ir()" type="submit">Küldés</button>
+
+    <div id="kartya" class="kartya">Nincs adat</div>
+</body>
+</html>
