@@ -1,0 +1,9 @@
+.kartya{
+    margin: 0 auto;
+    border: 1px solid black;
+    border-style: solid;
+    width: 200px;
+    text-align: center;
+    margin-top: 100px;
+    padding: 10px;
+}
