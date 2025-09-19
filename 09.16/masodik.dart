@@ -2,6 +2,7 @@ void main() {
   print(getVowels("barack"));
   print(getConsonants("almakörte"));
   print(getFirstChar("körtelé"));
+  print(getLastChar("körtefa"));
 }
 
 String getVowels(String szo) {
@@ -53,5 +54,13 @@ String getFirstChar(String szo) {
     return szo[0];
   } else {
     return '';
+  }
+}
+
+String getLastChar(String szo) {
+  if (szo.isEmpty) {
+    return "";
+  } else {
+    return szo[szo.length-1];
   }
 }
